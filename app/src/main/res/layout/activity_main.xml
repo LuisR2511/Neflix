@@ -12,12 +12,12 @@
         android:id="@+id/imageViewCapa"
         android:layout_width="match_parent"
         android:layout_height="320dp"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/f10"
-        android:scaleType="centerCrop"
-        />
+        app:srcCompat="@drawable/f10" />
 
     <TextView
         android:id="@+id/textViewFilmes"
@@ -89,8 +89,8 @@
         android:layout_height="72dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/f11"
-        tools:layout_editor_absoluteY="90dp" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/f11" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -242,9 +242,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Luis Estevam Gonçalves Rebonato"
+        android:textColor="@color/menu_navegacao"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guidelineDireita"
         app:layout_constraintStart_toStartOf="@+id/guidelineEsquerda"
-        tools:layout_editor_absoluteY="510dp"
-        android:textColor="@color/menu_navegacao"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
