@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Netflix</string>
+    <string name="series">Series</string>
+    <string name="filmes">Filmes</string>
+    <string name="minha_lista">Minha Lista</string>
+    <string name="deus">Deus</string>
+    <string name="esperan_a">Esperança</string>
+    <string name="assistir">Assistir</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="lan_amentos">Lançamentos</string>
+    <string name="s_ries_dram_ticas">Séries Dramáticas</string>
+    <string name="coreanos">Coreanos</string>
+    <string name="suspense_para_tv">Suspense para TV</string>
 </resources>
